@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Perfil" />
+        <item
+            android:id="@+id/nav_ParkList"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="Lista de Estacionamentos" />
+        <item
+            android:id="@+id/nav_Favorites"
+            android:icon="@drawable/ic_star_border_black_24dp"
+            android:title="Favoritos" />
+        <item
+            android:id="@+id/nav_Payment"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="Pagamento" />
+
+        <item
+            android:id="@+id/nav_TermsPolicies"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Termos e Política" />
+
+        <item
+            android:id="@+id/nav_SignOut"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Log out" />
+
+    </group>
+</menu>

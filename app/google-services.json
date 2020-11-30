@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "357875355548",
+    "firebase_url": "https://encostaai-c2d9d.firebaseio.com",
+    "project_id": "encostaai-c2d9d",
+    "storage_bucket": "encostaai-c2d9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357875355548:android:1c316f2dc97c5906",
+        "android_client_info": {
+          "package_name": "encostai.encostai.com.br.encostaai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357875355548-c7b079ugsniv3gaduu0kgpgl07f1q071.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "encostai.encostai.com.br.encostaai",
+            "certificate_hash": "327f4adf4314d6fac13643a583cc39cf2b48c7ff"
+          }
+        },
+        {
+          "client_id": "357875355548-3t2jvtpgehq05524hpbapcidv8mgc95n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqy1_mTihud6DbbpzFo7mbKy0PhZC_RZk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357875355548-3t2jvtpgehq05524hpbapcidv8mgc95n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

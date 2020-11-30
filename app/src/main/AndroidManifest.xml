@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="encostai.encostai.com.br.encostaai">
+
+    <!-- Permissões -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Localização próxima -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Localização exata -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Internet -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC7rETmE3A4ld1q7Zzmc5330DnV-o-onAo" />
+
+        <activity
+            android:name=".activity.main.MainActivity"
+            android:label="@string/title_activity_inicial"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.signUp.SignUpActivity"
+            android:label="@string/title_activity_cadastro"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.parkingList.ParkingListActivity"
+            android:label="@string/title_activity_parking_list"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.profile.ProfileActivity"
+            android:label="@string/title_activity_perfil"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.termsPolicies.TermsPoliciesActivity"
+            android:label="@string/title_activity_politica_termos"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.favorites.FavoritesActivity"
+            android:label="Favorites"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.parkDetail.ParkDetailActivity"
+            android:label="Detalhes"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".activity.rate.RateActivity"></activity>
+    </application>
+
+</manifest>
